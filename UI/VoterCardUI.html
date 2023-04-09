@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Voter Card UI PAge</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container mt-3">
+        <h2>Voter Card</h2>
+        <form action="../php/addVoterCard.php">
+            <div class="mb-3 mt-3">
+                <label for="vid">Voter ID:</label>
+                <input type="text" class="form-control" id="vid" placeholder="Enter Voter ID" name="vid">
+            </div>
+            <div class="mb-3">
+                <label for="fname">Enter Name:</label>
+                <input type="text" class="form-control" id="fname" placeholder="Enter First Name" name="fname">
+                <input type="text" class="form-control" id="mname" placeholder="Enter Middle Name" name="mname">
+                <input type="text" class="form-control" id="lname" placeholder="Enter Last Name" name="lname">
+            </div>
+
+            <div class="mb-3 mt-3">
+                <label for="fatherName">Father Name:</label>
+                <input type="text" class="form-control" id="fatherName" placeholder="Enter Father Name" name="fatherName">
+            </div>
+            <div class="mb-3 mt-3">
+                <label for="City">City :</label>
+                <input type="text" class="form-control" id="City" placeholder="Enter City" name="City">
+            </div>
+            <div class="mb-3 mt-3">
+                <label for="State">State:</label>
+                <input type="text" class="form-control" id="State" placeholder="Enter State" name="State">
+            </div>
+            <div class="mb-3 mt-3">
+                <label for="Contact">Contact :</label>
+                <input type="text" class="form-control" id="Contact" placeholder="Enter Contact No." name="Contact">
+            </div>
+            <div>
+                <label for="Contact">Gender </label>
+            </div>
+            <div class="form-check">
+
+                <input type="radio" class="form-check-input" id="radio1" name="gender" value="Male">
+                <label class="form-check-label" for="radio1">Male</label>
+            </div>
+            <div class="form-check">
+                <input type="radio" class="form-check-input" id="radio1" name="gender" value="Female">
+                <label class="form-check-label" for="radio2">Female</label>
+            </div>
+
+            <div class="form-check mb-3">
+                <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> Remember me
+      </label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Pasport UI Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container mt-3">
+        <h2>Passport Card</h2>
+        <form action="../php/addPassportCard.php">
+            <div class="mb-3 mt-3">
+                <label for="pid">Passport ID:</label>
+                <input type="text" class="form-control" id="pid" placeholder="Enter Passport ID" name="pid">
+            </div>
+            <div class="mb-3">
+                <label for="address">Enter Address:</label>
+                <input type="text" class="form-control" id="address" placeholder="Enter Address " name="address">
+            </div>
+
+            <div class="mb-3 mt-3">
+                <label for="birthdate">Date OF Birth:</label>
+                <input type="date" class="form-control" id="birthdate" placeholder="Enter Birthdate" name="birthdate">
+            </div>
+            <div class="mb-3 mt-3">
+                <label for="city">City :</label>
+                <input type="text" class="form-control" id="city" placeholder="Enter City" name="city">
+            </div>
+            <div class="mb-3 mt-3">
+                <label for="country">country :</label>
+                <input type="text" class="form-control" id="country" placeholder="Enter Country" name="country">
+            </div>
+            <div class="mb-3 mt-3">
+                <label for="dist">District :</label>
+                <input type="text" class="form-control" id="dist" placeholder="Enter District" name="dist">
+            </div>
+
+            <div class="mb-3 mt-3">
+                <label for="email">Email ID :</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter Email :- abc@gmail.com" name="email">
+            </div>
+
+
+            <div class="form-group">
+                <label for="employee">Employee </label> <br>
+                <select name="employee" class="form-control">
+                        <option value=""> ----Select----</option>
+                        <option value="Yes">Yes </option>
+                        <option value="No">No</option>
+                         </select>
+
+            </div>
+            <div class="mb-3 mt-3">
+                <label for="fathername">Father Name :</label>
+                <input type="text" class="form-control" id="fathername" placeholder="Enter Father Name" name="fathername">
+            </div>
+
+            <div class="mb-3 mt-3">
+                <label for="">Mother Name :</label>
+                <input type="text" class="form-control" id="mothername" placeholder="Enter mother Name" name="mothername">
+            </div>
+
+            <div>
+                <label for="gender">Gender </label>
+            </div>
+            <div class="form-check">
+                <input type="radio" class="form-check-input" id="radio1" name="gender" value="Male">
+                <label class="form-check-label" for="radio1">Male</label>
+            </div>
+            <div class="form-check">
+                <input type="radio" class="form-check-input" id="radio1" name="gender" value="Female">
+                <label class="form-check-label" for="radio2">Female</label>
+            </div>
+
+            <div class="mb-3 mt-3">
+                <label for="Identimarks">IdentiMarks :</label>
+                <input type="text" class="form-control" id="Identimarks" placeholder="Enter Identimarks" name="Identimarks">
+            </div>
+
+
+            <div class="form-group">
+                <label for="martial">Martial Status</label> <br>
+                <select name="martial" class="form-control">
+                        <option value=""> ----Select----</option>
+                        <option value="Maried"> Married </option>
+                        <option value="Unmarried"> Unmarried </option>
+                         </select>
+
+            </div>
+            <div class="mb-3 mt-3">
+                <label for="mobile">mobile Number:</label>
+                <input type="text" class="form-control" id="mobile" placeholder="Enter mobile" name="mobile">
+            </div>
+
+            <div class="mb-3 mt-3">
+                <label for="nativeplace">Native Place :</label>
+                <input type="text" class="form-control" id="nativeplace" placeholder="Enter nativeplace" name="nativeplace">
+            </div>
+            <div class="mb-3 mt-3">
+                <label for="pancard"> PAN Card Number :</label>
+                <input type="text" class="form-control" id="pancard" placeholder="Enter Pan Card" name="pancard">
+            </div>
+
+            <div class="mb-3 mt-3 ">
+                <label for="pincode ">Pin  Code :</label>
+                <input type="text " class="form-control " id="pincode " placeholder="Enter pincode " name="pincode">
+            </div>
+
+            <div class="mb-3 mt-3 ">
+                <label for="state ">state :</label>
+                <input type="text " class="form-control " id="state " placeholder="Enter State " name="state">
+            </div>
+            <div class="mb-3 mt-3 ">
+                <label for="voterid ">Voter ID Number:</label>
+                <input type="text " class="form-control " id="voterid " placeholder="Enter voterid " name="vid">
+            </div>
+
+            <div class="form-group">
+                <label for="Qualification">Qualification</label> <br>
+                <select name="qualification" class="form-control ">
+                        <option value=" "> ----Select----</option>
+                        <option value="UnEucated ">UnEducated</option>
+                        <option value=" Secoundry ">Secoundry</option>
+                        <option value=" Intermediate ">Intermediate</option>
+                        <option value=" Gradution ">Gradution</option>
+                        <option value=" Post Gradution ">Post Gradution</option>
+                                     
+                   </select>
+
+            </div>
+
+            <div class="form-check mb-3 ">
+                <label class="form-check-label ">
+        <input class="form-check-input " type="checkbox " name="remember "> Remember me
+      </label>
+            </div>
+            <button type="submit " class="btn btn-primary ">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>

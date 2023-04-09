@@ -1,0 +1,140 @@
+body {
+    background-image: url("../icon/46.jpg");
+    background-color: #cccccc;
+}
+
+.header {
+    margin-top: 150px;
+    margin-right: -70px;
+    width: 1255px;
+}
+
+.header h1 {
+    font-size: 30px;
+    margin-top: 550px;
+    margin-left: 20px;
+    margin-top: -60px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.headdddd {
+    margin-top: -20px;
+    width: 1250px;
+    height: 10px;
+}
+
+.login {
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    color: white;
+    margin-left: 1095px;
+    margin-top: -330px;
+    position: relative;
+}
+
+.login p {
+    width: 175px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: -2px;
+    border: 0px;
+    background-color: #04AA6D;
+    border-radius: 4px;
+    text-decoration: none;
+    border-style: groove;
+    font-size: large;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    padding: 4px;
+}
+
+#img2 {
+    width: 150px;
+    height: 190px;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+#img3 {
+    width: 150px;
+    height: 130px;
+    margin-left: 50px;
+}
+
+#img4 {
+    width: 150px;
+    height: 130px;
+    margin-left: 1050px;
+    margin-top: -125px;
+}
+
+#img1 {
+    width: 1333px;
+    height: 400px;
+    margin-right: 0px;
+    margin-top: -150px;
+}
+
+#img5 {
+    width: 45px;
+    height: 45px;
+    margin-top: -45px;
+    margin-left: 1200px;
+}
+
+.firstColumn {
+    margin-top: 60px;
+    color: #dd7d0f;
+}
+
+.firstColumn h3 {
+    color: blue;
+}
+
+.footer p {
+    width: 1320px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: -2px;
+    border: 0px;
+    background-color: #eeb703fb;
+    border-radius: 4px;
+    text-decoration: none;
+    border-style: groove;
+    font-size: large;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    padding: 4px;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+    margin-top: 120px;
+}
+
+.navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: #000;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
+@media screen and (max-width: 500px) {
+    .navbar a {
+        float: none;
+        display: block;
+    }
+}
